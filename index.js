@@ -25,7 +25,7 @@ app.use(session({
   secret: 'ee461a2924cb56fb8da19ea73c44a5407d435f87',
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false },//en false para que ande aca en local host pero en true es para https http
+    cookie: { secure: true },//en false para que ande aca en local host pero en true es para https http
     store: new MongoStore({ mongooseConnection: mongoDbConnection }) 
 }))
 app.use(express.static('public'))
