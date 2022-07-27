@@ -1,0 +1,5 @@
+extends ../master/default/layout
+block content
+  .container.mt-4
+    +alert(message)
+    h1 Hola Mundo!!, #{user ? user.name : 'Hola Invitado'}!
