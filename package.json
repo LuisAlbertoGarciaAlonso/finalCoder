@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An ecommerce webisite",
     "engines": {
-      "node": "16.x"
+      "node": "16.16.0"
     },
   "main": "index.js",
   "scripts": {
