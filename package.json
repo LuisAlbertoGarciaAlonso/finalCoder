@@ -4,7 +4,9 @@
   "description": "An ecommerce webisite",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "build" : "webpack",
+    "nodemon": "nodemon index.js",
+    "start": " node index.js",
     "serve:debug": "nodemon --inspect index.js",
     "test": "mocha tests/*.js --exit",
     "asset:watch": "npx webpack --config-name=watch",
