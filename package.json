@@ -2,6 +2,9 @@
   "name": "ecommercev2",
   "version": "1.0.0",
   "description": "An ecommerce webisite",
+    "engines": {
+      "node": "16.x"
+    },
   "main": "index.js",
   "scripts": {
     "nodemon": "nodemon index.js",
@@ -39,4 +42,5 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^3.3.12"
   }
+
 }
